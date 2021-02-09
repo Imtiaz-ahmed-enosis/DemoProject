@@ -36,6 +36,7 @@ else {
 	$query = "InSERT INTO comments (s_index,u_name,episode_no,comment_data)VALUES ('$seriesNo','$username','$episodeNo','$comment')"; 
 	if(mysqli_query($connection,$query)){
 		echo "Thank you for commenting.";
+		echo "A Second Thank you I suppose";
 		
 	}
 	else{
